@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 def main():
-    st.title("Dogs and Cats Prediction")
+    st.title("Dogs and Classifier")
    
     @st.cache_resource
     def load_model():
@@ -24,7 +24,6 @@ def main():
     model = load_model()
     class_names = ["Cats", "Dogs"]
 
-    st.write("# Dogs and Cats Classifier")
     st.write("### Cats, Dogs")
 
     file = st.file_uploader("Choose dog/cat photo from computer", type=["jpg", "png", "jpeg"])
