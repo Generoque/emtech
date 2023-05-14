@@ -7,7 +7,7 @@ import cv2
 def main():
     # set up the Streamlit app
     st.title("Dogs and Cats Classifier")
-    st.set_page_config(page_title="Dogs and Cats Classifier", page_icon="🐶🐱")
+    st.set_page_config(page_title="Dogs and Cats Classifier", page_icon="🐶")
     st.write("This app classifies whether an uploaded image contains a dog or a cat using a pre-trained convolutional neural network model.")
     st.write("### Cats, Dogs")
    
