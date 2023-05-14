@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 def main():
-    st.title("Streamlit App")
+    st.title("Dogs and Cats Prediction")
    
     @st.cache_resource
     def load_model():
@@ -27,7 +27,7 @@ def main():
     st.write("# Dogs and Cats Classifier")
     st.write("### Cats, Dogs")
 
-    file = st.file_uploader("Choose flower photo from computer", type=["jpg", "png", "jpeg"])
+    file = st.file_uploader("Choose dog/cat photo from computer", type=["jpg", "png", "jpeg"])
 
     if file is None:
         st.text("Please upload an image file")
