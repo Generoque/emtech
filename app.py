@@ -45,3 +45,10 @@ def main():
  
 if __name__ == "__main__":
     main()
+
+<style>
+pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+</style>
