@@ -5,7 +5,11 @@ import numpy as np
 import cv2
 
 def main():
-    st.title("Dogs and Classifier")
+    # set up the Streamlit app
+    st.title("Dogs and Cats Classifier")
+    st.set_page_config(page_title="Dogs and Cats Classifier", page_icon="🐶🐱")
+    st.write("This app classifies whether an uploaded image contains a dog or a cat using a pre-trained convolutional neural network model.")
+    st.write("### Cats, Dogs")
    
     @st.cache_resource
     def load_model():
@@ -23,8 +27,7 @@ def main():
 
     model = load_model()
     class_names = ["Cats", "Dogs"]
-
-    st.write("### Cats, Dogs")
+    
 
     file = st.file_uploader("Choose dog/cat photo from computer", type=["jpg", "png", "jpeg"])
 
