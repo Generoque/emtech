@@ -30,7 +30,7 @@ def main():
     class_names = ["Cats", "Dogs"]
     
 
-    file = st.file_uploader("Choose dog/cat photo from computer", type=["jpg", "png", "jpeg"])
+    file = st.file_uploader("Upload a dog/cat picture", type=["jpg", "png", "jpeg"])
 
     if file is None:
         st.text("Please upload an image file")
