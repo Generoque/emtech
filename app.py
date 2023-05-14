@@ -6,10 +6,10 @@ import cv2
 
 def main():
     # set up the Streamlit app
-    st.title("Dogs and Cats Classifier 🐶🐱")
-    st.write("This app classifies whether an uploaded image contains a dog or a cat using a pre-trained convolutional neural network model.")
     st.write("Name: Alexia Jose M. Roque")
     st.write("Section: CPE32S6")
+    st.title("Dogs and Cats Classifier 🐶🐱")
+    st.write("This app classifies whether an uploaded image contains a dog or a cat using a pre-trained convolutional neural network model.")
     st.write("### Cats, Dogs")
    
     @st.cache_resource
