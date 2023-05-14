@@ -10,7 +10,7 @@ def main():
     st.write("Section: CPE32S6")
     st.title("Dogs and Cats Classifier 🐶🐱")
     st.write("This app classifies whether an uploaded image contains a dog or a cat using a pre-trained convolutional neural network model.")
-    st.write("### Cats, Dogs")
+    st.write("### Dogs 🐕‍🦺, Cats 🐈")
    
     @st.cache_resource
     def load_model():
