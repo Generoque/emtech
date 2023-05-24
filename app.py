@@ -8,7 +8,7 @@ def main():
     # set up the Streamlit app
     st.write("""Name: Gene Dlaenor B. Roque \n 
              Gianne Christoffe Mariano \n
-             Karl Justine Siason""")
+             Karl Justine Siason \n""")
     st.write("Section: CPE32S1")
     st.title("Dogs and Cats Classifier")
    
