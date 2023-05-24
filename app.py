@@ -8,9 +8,7 @@ def main():
     # set up the Streamlit app
     st.write("Name: Gene Dlaenor B. Roque")
     st.write("Section: CPE32S1")
-    st.title("Dogs and Cats Classifier 🐶🐱")
-    st.write("This app classifies whether an uploaded image contains a dog or a cat using a pre-trained convolutional neural network model.")
-    st.write("### Dogs 🐕‍🦺, Cats 🐈")
+    st.title("Dogs and Cats Classifier")
    
     @st.cache_resource
     def load_model():
