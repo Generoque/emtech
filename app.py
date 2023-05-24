@@ -6,7 +6,7 @@ import cv2
 
 def main():
     # set up the Streamlit app
-    st.write("Name: Gene Dlaenor B. Roque \n Gianne Christoffe Mariano\n Karl Justine Siason")
+    st.write("Name: Gene Dlaenor B. Roque \n" "Gianne Christoffe Mariano \n" "Karl Justine Siason")
     st.write("Section: CPE32S1")
     st.title("Dogs and Cats Classifier")
    
